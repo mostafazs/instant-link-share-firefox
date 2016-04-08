@@ -1,0 +1,16 @@
+﻿#Some files(zip and xpi)
+*.zip
+*.xpi
+*.txt
+
+#jpm
+.jpmignore
+
+# Some directory
+/tmp
+/data/icheck_example
+/data/Pure_CSS_CheckBox
+
+#Eclips
+.project
+.settings

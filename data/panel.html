@@ -1,0 +1,26 @@
+<html>
+<head><title>Panel</title>
+  <meta charset="UTF-8">
+  <meta content="width=device-width" name="viewport">
+  <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+
+<div class="middle"><input type="text" name="link" id="link" placeholder="Past link here(or use orange icon to get tab address)"/><img id="get_current_tab_url" src="./get-current-page-16.png" title="Get Current Page"/><!-- <input type="text" id="get_current_tab_url" disabled="disabled" title="Get Current Tab Address"/>--><!-- <a href="#" id="get_current_tab_url"><small>Get Current Page</small></a> --></div><br/>
+<div class="middle no-align">
+Share On:
+<input type="checkbox" name="checkbox-1" id="facebook" data-url="https://facebook.com/sharer.php?s=100&p[url]=" class="checkbox-custom" />
+<label for="facebook" class="checkbox-custom-label">Facebook</label>
+<input type="checkbox" name="checkbox-2" id="twitter" data-url="https://twitter.com/intent/tweet?url=" class="checkbox-custom" />
+<label for="twitter" class="checkbox-custom-label">Twitter</label>
+<input type="checkbox" name="checkbox-3" id="gplus" data-url="https://plus.google.com/share?url=" class="checkbox-custom" />
+<label for="gplus" class="checkbox-custom-label">Google+</label>
+<input type="checkbox" name="checkbox-4" id="linkedin" data-url="https://www.linkedin.com/cws/share?url=" class="checkbox-custom" />
+<label for="linkedin" class="checkbox-custom-label">LinkedIn</label><!-- http://www.linkedin.com/shareArticle?mini=true&url=http://www.youtube.com/watch?v=??? -->
+<!-- http://www.linkedin.com/shareArticle?mini=true&summary=youtube&title=nike&url=http://www.youtube.com/watch?v=??? -->
+<!-- http://www.linkedin.com/shareArticle?mini=true&url={articleUrl}&title={articleTitle}&summary={articleSummary}&source={articleSource} -->
+</div>
+<div class="middle bottom"><input type="button" id="share_it" value="Share"/></div>
+<script src="./instant-share.js"></script>
+</body>
+</html>
