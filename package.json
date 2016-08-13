@@ -2,8 +2,8 @@
   "title": "Instant Link Share",
   "name": "instant-link-share",
   "id": "instant-link-share@jetpack",
-  "version": "1.0.0",
-  "description": "Instantly share a link on several social network",
+  "version": "1.0.1",
+  "description": "Instantly share link on several social network that you currently logins.",
   "icon":"resource://instant-link-share-at-jetpack/data/icon.png",
   "main": "index.js",
   "icons":{
@@ -18,8 +18,12 @@
   "engines": {
     "firefox": ">=38.0a1"
   },
-  "license": "GPL",
+  "permissions": {
+    "multiprocess": true
+  },
+  "license": "MIT",
+  "homepage": "https://addons.mozilla.org/en-US/firefox/addon/instant-link-share/?src=api",
   "keywords": [
-    "jetpack,sharing,facebook,twitter,linkedin,google+,link,instant,share,social,network"
+    "jetpack,sharing,facebook,twitter,linkedin,google+,link,instant,share,social"
   ]
 }
