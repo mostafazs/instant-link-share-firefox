@@ -8,9 +8,7 @@
 
 # Some directory
 /tmp
-/data/icheck_example
-/data/Pure_CSS_CheckBox
 
 #Eclips
 .project
-.settings
+/.settings

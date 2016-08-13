@@ -1,10 +1,10 @@
 /**
- * Main javascript file
+ * Main file
  *
  * @copyright 2016 Mostafa Ziasistani ( https://mostafazs.github.io )
  * @author Mostafa Ziasistani
- * @license GPL 3.0 or later
- * @version 1.0.0 * 
+ * @license MIT
+ * @version 1.0.1
  */
 var self = require('sdk/self');
 var {ToggleButton} = require('sdk/ui/button/toggle');
@@ -27,7 +27,7 @@ function NotifyUser(Title,Text){
 
 var button = ToggleButton({
     id: "instant-share-btn",
-    label: "Instant Share",
+    label: "Instant Link Share",
     icon: {
         "16": self.data.url('icon-16.png'),
         "32": self.data.url('icon-32.png'),

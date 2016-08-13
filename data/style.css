@@ -9,6 +9,7 @@
     /*border: 1px solid #BDBDBD;*/
     border: 1px solid #FFF;
 	border-radius: 3px;
+	padding-left: 16px;
 }
 .middle.bottom {
     padding-bottom: 70px;
@@ -130,14 +131,7 @@ Misl Style
 input['type=checkbox']{
 	color:red;
 }
-#reload_button{
-	cursor:pointer;
-	float:right;
-	padding:10px;
-	position: absolute;
-	right: 2px;
-	top: 2px;
-}
+
 a#get_current_tab_url:visited, a#get_current_tab_url:active, a#get_current_tab_url:link{
 	color:#130026;
 	text-decoration:none;

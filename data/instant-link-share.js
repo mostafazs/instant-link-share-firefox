@@ -1,5 +1,5 @@
 /**
- * Instant Link Share Script
+ * Instant Link Share
  * 
  * @package Instant Link Share
  * @copyright 2016 Mostafa Ziasistani ( https://mostafazs.github.io )
